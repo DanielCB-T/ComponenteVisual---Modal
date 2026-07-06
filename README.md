@@ -20,7 +20,8 @@ Una librería desarrollada con **JavaScript y CSS** que permite mostrar informac
 │   └── componente.js
 │
 └── img
-│   └── tijeras.png    
+    └── tijeras.png
+    └── modal.png    
 ```
 
 ---
@@ -48,7 +49,7 @@ O si el archivo se encuentra en la misma carpeta:
 
 ## 1. .modal
 
-Abarca toda la pantalla y se establece el color y posicionamiento del fondo del modal (parte sombreada). Se inicializa como invisible y sin interaccion con el mouse. Esta clase se recomienda que se le asigne a un <section>
+Abarca toda la pantalla y se establece el color y posicionamiento del fondo del modal (parte sombreada). Se inicializa como invisible y sin interaccion con el mouse. Esta clase se recomienda que se le asigne a un "section".
 
 ### Codigo
 
@@ -86,7 +87,7 @@ Se encarga de hacer visible el modal y que pueda recibir interaccion del mouse.
 
 ## 3. .modal-contenedor
 
-Es la parte que muestra la informacion, se recomienda que esta clase se le de a un <div>.
+Es la parte que muestra la informacion, se recomienda que esta clase se le de a un "div".
 
 ### Codigo
 
@@ -110,7 +111,7 @@ Es la parte que muestra la informacion, se recomienda que esta clase se le de a 
 
 ## 4. .modal-titulo
 
-El mensaje principal que se mostrara en el modal. Se recomienda agregar esta clase a un <h2>.
+El mensaje principal que se mostrara en el modal. Se recomienda agregar esta clase a un "h2".
 
 ### Codigo
 
@@ -124,7 +125,7 @@ El mensaje principal que se mostrara en el modal. Se recomienda agregar esta cla
 
 ## 5. .modal-texto
 
-El mensaje complementario que sigue despues del titulo. Se recomienda agregar esta clase a <p>.
+El mensaje complementario que sigue despues del titulo. Se recomienda agregar esta clase a "p".
 
 ### Codigo
 
@@ -139,7 +140,7 @@ El mensaje complementario que sigue despues del titulo. Se recomienda agregar es
 
 ## 6. .modal-image
 
-Imagen que puede mostrar en el modal. Debe estar en una etiqueta <image>.
+Imagen que puede mostrar en el modal. Debe estar en una etiqueta "image".
 
 ### Codigo
 
@@ -156,7 +157,7 @@ Imagen que puede mostrar en el modal. Debe estar en una etiqueta <image>.
 
 ## 7. .modal-cerrar y .modal-cerrar:hover
 
-Es la parte en la que se podra cerrar el modal; La clase con hover permite que el color cambie al momento de pasar el cursor sobre este. Se recomienda usar en <a> o <button>
+Es la parte en la que se podra cerrar el modal; La clase con hover permite que el color cambie al momento de pasar el cursor sobre este. Se recomienda usar en "a" o "button".
 
 ### Codigo
 
